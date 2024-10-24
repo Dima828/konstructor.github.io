@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="./icons/fontawesome-free-6.6.0-web/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
+    <title>Konstrukt</title>
+</head>
+<body>
+    <section class="welcom__blcok" id="home">
+        <img class="bg-image" src="./images/bg.svg" alt="bilgen">
+        <div class="welcom_content">
+            <div class="logo">
+                <a href="#">
+                    <img src="./images/logo.svg" alt="logo">
+                </a>
+            </div>
+            <div class="welcom_text_middle">
+                <p class="text__upper">Partner with konstruct</p>
+                <p class="text">An award-winning construction management firm</p>
+            </div>
+            <div class="welcom_text_end">
+                <p class="text">scroll down</p>
+            </div>
+        </div>
+    </section>
+
+    <header class="header">
+        <div class="header__inner container">
+                <a href="#" class="header__logo">
+                    <img src="./images/company-logo-black.svg" alt="logo" class="logo_image">
+                </a>
+            <nav class="header__menu">
+                <input type="checkbox" id="checkbox-menu">
+                <label for="checkbox-menu">
+                    <ul class="header__menu-list touch">
+                        <li class="header__menu-item"><a href="#home" class="header__menu-link">HOME</a></li>
+                        <li class="header__menu-item"><a href="#about" class="header__menu-link">ABOUT</a></li>
+                        <li class="header__menu-item"><a href="#services" class="header__menu-link">SERVICES</a></li>
+                        <li class="header__menu-item"><a href="#work" class="header__menu-link">WORK</a></li>
+                        <li class="header__menu-item"><a href="#contact" class="header__menu-link">CONTACT</a></li>
+                    </ul>
+                    <span class="toggle">☰</span>
+                </label>
+            </nav>
+        </div>
+    </header>
+    
+    <main class="main" id="about">
+        <section class="about">
+            <div class="main__inner container">
+                <h1 class="main__header">
+                    Our story
+                    <svg width="52" height="2" viewBox="0 0 52 2" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M1 1H51" stroke="#00A4E5" stroke-width="2" stroke-linecap="square" />
+                      </svg>
+                </h1>
+                <div class="main__container">
+                    <div class="main__text">
+                        <div class="maim__text-header">
+                            Founded in 2011 by John Mathew<br> Smith, <span class="blue__text">Konstruct</span> has 
+                            become the<br> number one construction<br> management firm
+                        </div>
+                        <div class="text">
+                            Lorem ipsum dolor sit amet, consectetuer adipiscing elit, 
+                            sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat.
+                            Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat.
+                        </div>
+                    </div>
+                    <div class="main__photo">
+                        <img src="./images/plan.svg" alt="we plan">
+                        <img src="./images/manage.svg" alt="we manage">
+                        <img src="./images/build.svg" alt="we build">
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="services" id="services">
+            <div class="servises__inner container">
+                <div class="servises__header">
+                    <h1 class="servises__title">
+                        OUR CAPABILITIES
+                        <svg width="52" height="2" viewBox="0 0 52 2" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M1 1H51" stroke="#00A4E5" stroke-width="2" stroke-linecap="square" />
+                          </svg>
+                    </h1>
+                    <p class="servises__text">
+                        Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt 
+                        ut laoreet dolore magna aliquam erat.
+                    </p>
+                    <button class="servises__button button" type="submit">
+                        ALL SERVICES
+                    </button>
+                </div>
+                <ul class="servises__list">
+                    <li class="servises__item">
+                        <img src="./images/icon_1.svg" alt="pen" class="servises__icon icon">
+                        <h3 class="servises__item-title">PROJECT AND CONSTRUCTION MANAGEMENT</h3>
+                        <p class="servises__item-text">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat.</p>
+                    </li>
+                    <li class="servises__item">
+                        <img src="./images/icon_2.svg" alt="market" class="servises__icon icon">
+                        <h3 class="servises__item-title">STRUCTURE AUDIT AND MAINTENANCE</h3>
+                        <p class="servises__item-text">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat.</p>
+                    </li>
+                    <li class="servises__item">
+                        <img src="./images/icon_3.svg" alt="bank" class="servises__icon icon">
+                        <h3 class="servises__item-title">FACTORY CONSTRUCTION AND MODELING</h3>
+                        <p class="servises__item-text">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat.</p>
+                    </li>
+                </ul>
+            </div>
+        </section>
+        <section class="work" id="work">
+            <div class="work__inner container">
+                <h2 class="work__title">Want to build something amazing?</h2>
+                <button class="work__button button">
+                    GET IN TOUCH
+                </button>
+            </div>
+        </section>
+        <section class="newsletter">
+            <div class="newsletter__inner">
+                <h2 class="newsletter__title">Newsletter Signup</h2>
+                <form action="#" class="newsletter__form">
+                    <input type="email" placeholder="test@yourmail.com" required>
+                    <button class="newsletter__button button" type="submit">
+                        SIGNUP
+                    </button>
+                </form>
+            </div>
+        </section>
+    </main>
+    <footer class="footer">
+        <div class="footer__inner container">
+            <div class="footer__company">
+                <h2 class="company__title title">COMPANY</h2>
+                <a href="#" class="footer__logo header__logo">
+                    <img src="./images/logo.svg" alt="logo" class="logo_image">
+                </a>
+                <p class="footer__text">
+                    Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat.
+                </p>
+            </div>
+                <ul class="footer__menu-list ">
+                    <h2 class="links__title title">LINKS</h2>
+                    <li class="footer__menu-item"><a href="#home" class="footer__menu-link">HOME</a></li>
+                    <li class="footer__menu-item"><a href="#about" class="footer__menu-link">ABOUT</a></li>
+                    <li class="footer__menu-item"><a href="#services" class="footer__menu-link">SERVICES</a></li>
+                    <li class="footer__menu-item"><a href="#work" class="footer__menu-link">PEOJECTS</a></li>
+                    <li class="footer__menu-item"><a href="#contact" class="footer__menu-link">CONTACT us</a></li>
+                </ul>
+                <ul class="footer__menu-list ">
+                    <li class="footer__menu-item"><a href="#home" class="footer__menu-link">FAQ</a></li>
+                    <li class="footer__menu-item"><a href="#about" class="footer__menu-link">TERMS</a></li>
+                    <li class="footer__menu-item"><a href="#services" class="footer__menu-link">CAREERS</a></li>
+                </ul>
+                <ul class="footer__menu-list ">
+                    <li class="footer__menu-item"><a href="#home" class="footer__menu-link">BLOG</a></li>
+                    <li class="footer__menu-item"><a href="#about" class="footer__menu-link">PARTNERS</a></li>
+                    <li class="footer__menu-item"><a href="#services" class="footer__menu-link">NEWS</a></li>
+                </ul>
+            <div class="footer__contacts">
+                <h2 class="contacts__title title">CONTACR US</h2>
+                <p class="contact__text">
+                    213 Baker Street Oriel City Kounty 7000 KNW Kounty Name            
+                </p>
+                <a href="#" class="contact__number">
+                    +23 994 233 4022
+                </a>
+                <a href="#" class="contact__email">
+                    ingo@konstruct.com
+                </a>
+            </div>
+            <div class="footer__icon">
+                <a href="#"><i class="fa-brands fa-square-facebook"></i></a>
+                <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                <a href="#"><i class="fa-brands fa-google"></i></a>
+            </div>
+        </div>
+        <div class="footer__bottom">
+            <p>© 2017 Konstruct Inc. Designed by Jane Kathryn Teo</p>
+        </div>
+    </footer>
+</body>
+</html>
